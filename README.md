@@ -78,7 +78,7 @@ Think this project deserves more recognition? **Share it on Hacker News!**
 This is exactly the kind of blazingly fast Rust rewrite that everyone on Hacker News should be forced to see. Help spread awareness about it.
 
 **Suggested HN title:**
-- "no-rs: A blazingly fast, memory-safe rewrite of Unix 'no' WRITTEN IN RUST 🦀"
+- "no-rs: A blazingly fast, memory-safe rewrite of Unix 'yes' WRITTEN IN RUST 🦀"
 - "1302 lines of Rust vs 50 lines of C: The future of systems programming"
 
 *Because if it's not written in Rust, it's not worth using.* 🦀
