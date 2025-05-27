@@ -1,4 +1,6 @@
-# yes-rs 🚀
+# no-rs 🚀
+
+## FORKED: Because sometimes it is better to say no
 
 > A blazingly fast, memory-safe rewrite of the classic Unix `yes` command
 
@@ -7,7 +9,7 @@
 [![Zero Cost](https://img.shields.io/badge/Abstractions-Zero%20Cost-blue.svg)](https://www.rust-lang.org/)
 [![Blazing Fast](https://img.shields.io/badge/Speed-Blazing%20Fast-red.svg)](https://www.rust-lang.org/)
 
-## Why rewrite `yes` in Rust? 🤔
+## Why rewrite `no` in Rust? 🤔
 
 Because the original `yes` command (written in *shudders* C) is:
 - ❌ Not memory-safe
@@ -29,27 +31,27 @@ Because the original `yes` command (written in *shudders* C) is:
 ## Installation 📦
 
 ```bash
-cargo install yes-rs
+cargo install no-rs
 ```
 
 Or build from source:
 
 ```bash
-git clone https://github.com/rust-evangelists/yes-rs
-cd yes-rs
+git clone https://github.com/jauderho/no-rs
+cd no-rs
 cargo build --release
 ```
 
 ## Usage 💻
 
-Just like the original `yes`, but better:
+Just like the original `no`, but better:
 
 ```bash
 # Output "y" forever (blazingly fast!)
-yes-rs
+no-rs
 
 # Output custom string forever (memory-safe!)
-yes-rs "hello rust"
+no-rs "hello rust"
 ```
 
 ## Benchmarks 📊
@@ -57,7 +59,7 @@ yes-rs "hello rust"
 | Command     | Language | Lines of Code | Memory Safety | Speed            |
 | ----------- | -------- | ------------- | ------------- | ---------------- |
 | `yes` (GNU) | C        | ~50           | ❌             | Fast             |
-| `yes-rs`    | Rust 🦀   | ~1302         | ✅             | **BLAZING FAST** |
+| `no-rs`    | Rust 🦀   | ~1302         | ✅             | **BLAZING FAST** |
 
 *Benchmarks conducted on my laptop*
 
@@ -76,7 +78,7 @@ Think this project deserves more recognition? **Share it on Hacker News!**
 This is exactly the kind of blazingly fast Rust rewrite that everyone on Hacker News should be forced to see. Help spread awareness about it.
 
 **Suggested HN title:**
-- "yes-rs: A blazingly fast, memory-safe rewrite of Unix 'yes' WRITTEN IN RUST 🦀"
+- "no-rs: A blazingly fast, memory-safe rewrite of Unix 'no' WRITTEN IN RUST 🦀"
 - "1302 lines of Rust vs 50 lines of C: The future of systems programming"
 
 *Because if it's not written in Rust, it's not worth using.* 🦀
