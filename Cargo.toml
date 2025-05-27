@@ -2,7 +2,7 @@
 name = "no-rs"
 version = "0.3.0"
 edition = "2021"
-authors = ["Rust Evangelist <rust@blazing.fast>"]
+authors = ["Dirk Gently <dirk@holistic.detective>"]
 description = "🚀 A blazingly fast, memory-safe rewrite of the classic Unix 'yes' command inverted. Written in Rust! 🦀"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/jauderho/no-rs"
