@@ -1197,7 +1197,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>
             eprintln!("   • no-rs-2 (rewritten with different dependencies)");
             eprintln!("   • no-rs-ng (Angular-inspired architecture)");
             eprintln!("   • no-oxide (WebAssembly-first approach)");
-            eprintln!("   • yep (minimalist reimplementation)");
+            eprintln!("   • nope (minimalist reimplementation)");
             eprintln!();
             eprintln!("🔥 Follow me on Twitter for more Rust hot takes! 🔥");
             eprintln!("🦀 Don't forget to ✨✨star✨✨ my GitHub repo! 🦀");
