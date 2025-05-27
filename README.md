@@ -2,7 +2,7 @@
 
 ## FORKED: Because sometimes it is better to say no
 
-> A blazingly fast, memory-safe rewrite of the classic Unix `yes` command
+> A blazingly fast, memory-safe rewrite of the classic Unix `yes` command inverted
 
 [![Made with Rust](https://img.shields.io/badge/Made%20with-Rust-orange.svg)](https://www.rust-lang.org/)
 [![Memory Safety](https://img.shields.io/badge/Memory-Safe-green.svg)](https://www.rust-lang.org/)
@@ -21,7 +21,7 @@ Because the original `yes` command (written in *shudders* C) is:
 
 ## Features ✨
 
-- 🚀 **Blazingly fast** - Outputs "y" at unprecedented speeds
+- 🚀 **Blazingly fast** - Outputs "n" at unprecedented speeds
 - 🛡️ **Memory safe** - No segfaults, guaranteed!
 - ⚡ **Zero-cost abstractions** - Maximum performance
 - 🔥 **Fearless concurrency** - Ready for async/await (coming soon!)

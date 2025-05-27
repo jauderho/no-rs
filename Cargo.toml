@@ -1,6 +1,6 @@
 [package]
 name = "no-rs"
-version = "0.5.0"
+version = "0.6.0"
 edition = "2021"
 authors = ["Dirk Gently <dirk@holistic.detective>"]
 description = "🚀 A blazingly fast, memory-safe rewrite of the classic Unix 'yes' command inverted. Written in Rust! 🦀"
@@ -11,33 +11,33 @@ keywords = ["cli", "unix", "blazing-fast", "memory-safe", "zero-cost"]
 categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
-tokio = { version = "1.0", features = ["full", "rt-multi-thread", "macros", "sync", "time", "io-util", "net", "fs", "process"] }
+tokio = { version = "1.45", features = ["full", "rt-multi-thread", "macros", "sync", "time", "io-util", "net", "fs", "process"] }
 serde = { version = "1.0", features = ["derive", "rc"] }
 anyhow = "1.0"
 thiserror = "1.0"
 async-trait = "0.1"
 futures = "0.3"
-rayon = "1.7"
+rayon = "1.10"
 crossbeam = "0.8"
 dashmap = "5.5"
-arc-swap = "1.6"
+arc-swap = "1.7"
 parking_lot = "0.12"
-once_cell = "1.19"
-lazy_static = "1.4"
-regex = "1.10"
-uuid = { version = "1.6", features = ["v4", "serde"] }
+once_cell = "1.21"
+lazy_static = "1.5"
+regex = "1.11"
+uuid = { version = "1.17", features = ["v4", "serde"] }
 chrono = { version = "0.4", features = ["serde"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 metrics = "0.21"
 pin-project-lite = "0.2"
-bytes = "1.5"
-bitflags = "2.4"
+bytes = "1.10"
+bitflags = "2.9"
 num-traits = "0.2"
 num-bigint = "0.4"
-smallvec = { version = "1.11", features = ["serde", "union", "const_generics"] }
-tinyvec = { version = "1.6", features = ["alloc"] }
-bumpalo = "3.14"
+smallvec = { version = "1.15", features = ["serde", "union", "const_generics"] }
+tinyvec = { version = "1.9", features = ["alloc"] }
+bumpalo = "3.17"
 typed-arena = "2.0"
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
