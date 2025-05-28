@@ -47,7 +47,7 @@ cargo build --release
 Just like the original `no`, but better:
 
 ```bash
-# Output "y" forever (blazingly fast!)
+# Output "n" forever (blazingly fast!)
 no-rs
 
 # Output custom string forever (memory-safe!)
