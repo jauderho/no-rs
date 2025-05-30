@@ -44,7 +44,7 @@ cargo build --release
 
 ## Usage 💻
 
-Just like the original `no`, but better:
+Just like the original `yes`, but better:
 
 ```bash
 # Output "n" forever (blazingly fast!)
