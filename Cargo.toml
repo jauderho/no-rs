@@ -1,6 +1,6 @@
 [package]
 name = "no-rs"
-version = "0.6.0"
+version = "0.7.0"
 edition = "2021"
 authors = ["Dirk Gently <dirk@holistic.detective>"]
 description = "🚀 A blazingly fast, memory-safe rewrite of the classic Unix 'yes' command inverted. Written in Rust! 🦀"
