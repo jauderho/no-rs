@@ -29,7 +29,7 @@ uuid = { version = "1.17", features = ["v4", "serde"] }
 chrono = { version = "0.4", features = ["serde"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-metrics = "0.21"
+metrics = "0.24"
 pin-project-lite = "0.2"
 bytes = "1.10"
 bitflags = "2.9"
