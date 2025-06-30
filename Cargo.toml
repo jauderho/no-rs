@@ -37,7 +37,7 @@ num-traits = "0.2"
 num-bigint = "0.4"
 smallvec = { version = "1.15", features = ["serde", "union", "const_generics"] }
 tinyvec = { version = "1.9", features = ["alloc"] }
-bumpalo = "3.18"
+bumpalo = "3.19"
 typed-arena = "2.0"
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
